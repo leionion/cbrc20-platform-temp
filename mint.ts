@@ -13,6 +13,8 @@ const main = async () => {
     const actionType = Buff.encode(
       `cbrc-20:mint:${config.tick}=${config.mintAmount}`
     );
+
+    
     const imgdata = Buff.encode("0");
 
     const script = [
